@@ -11,6 +11,9 @@ def main():
     # Do not delete the return statement
     ########################################
     """
+    celcius = int(input("Enter the temperature in celcius: "))
+    fahrenheit = (9/5)*celcius + 32
+    print(f'fahrenheit: {fahrenheit}')
     return celcius, fahrenheit
 
 
